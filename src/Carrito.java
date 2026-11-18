@@ -41,4 +41,8 @@ public class Carrito {
         System.out.printf("Subtotal: %.2f €%n", subtotal());
         System.out.printf("Total con IVA: %.2f €%n", totalConIva());
     }
+
+    public double totalConDescuento(double porcentaje) {
+        return totalConIva() * (1 - porcentaje / 100);
+    }
 }
