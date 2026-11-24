@@ -30,6 +30,6 @@ public class Producto {
     }
 
     public void retirar(int cantidad) {
-        stock -= cantidad;
+        stock -= cantidad
     }
 }
